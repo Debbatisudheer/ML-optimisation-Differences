@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #36454F; /* Set body background color to green */
+
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color:  #022D36; /* Set container background color to brown */
+    padding: 20px; /* Add padding to the container */
+}
+
+.algorithm {
+    margin-bottom: 30px;
+}
+
+.algorithm h2 {
+    color:  #fff;
+}
+
+.algorithm p, ul,ol {
+    color:  #fff;
+}
+
+.summary {
+    font-style: italic;
+    color: #999;
+}
+h1 {
+    color: #0ABAB5; /* Set h1 text color to blue */
+}
+/* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust container width for smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+    .algorithm h2 {
+        font-size: 1.5em; /* Decrease heading size for smaller screens */
+    }
+}
