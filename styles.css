@@ -32,6 +32,17 @@ body {
 h1 {
     color: #0ABAB5; /* Set h1 text color to blue */
 }
+/* Footer Styles */
+footer {
+    background-color: #32612D;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 /* Mobile responsiveness */
 @media screen and (max-width: 768px) {
     .container {
